@@ -18,7 +18,11 @@ public class Solution {
         }
     }
 
+<<<<<<< HEAD
     public static void main(String[] args){
+=======
+    public static void main(String[] args) {
+>>>>>>> ff567e5ae788a8c1db2a3093d0b8881ada589742
         Thread thread = new Thread(new YieldRunnable(1));
         Thread thread1 = new Thread(new YieldRunnable(2));
         thread.start();

@@ -20,5 +20,9 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+        Thread thread = new Thread(new YieldRunnable(1));
+        Thread thread1 = new Thread(new YieldRunnable(2));
+        thread.start();
+        thread1.start();
     }
 }

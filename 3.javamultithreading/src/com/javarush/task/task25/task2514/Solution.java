@@ -7,7 +7,6 @@ package com.javarush.task.task25.task2514;
 public class Solution {
     public static class YieldRunnable implements Runnable {
         private int index;
-
         public YieldRunnable(int index) {
             this.index = index;
         }
@@ -19,6 +18,10 @@ public class Solution {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
+        Thread thread = new Thread(new YieldRunnable(1));
+        Thread thread1 = new Thread(new YieldRunnable(2));
+        thread.start();
+        thread1.start();
     }
 }

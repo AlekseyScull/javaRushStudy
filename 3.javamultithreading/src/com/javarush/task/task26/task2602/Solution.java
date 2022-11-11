@@ -31,6 +31,7 @@ public class Solution {
         @Override
         public int compareTo(Soldier o) {
             return o.height - this.height;
+
         }
     }
 }

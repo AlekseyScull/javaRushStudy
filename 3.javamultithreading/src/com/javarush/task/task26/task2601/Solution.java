@@ -13,7 +13,6 @@ public class Solution {
     }
 
     public static Integer[] sort(Integer[] array) {
-        //implement logic here
         List<Integer> list = Arrays.asList(array);
         Collections.sort(list);
         double median;

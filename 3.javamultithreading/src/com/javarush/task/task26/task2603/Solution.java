@@ -13,7 +13,6 @@ public class Solution {
     }
 
     public static class CustomizedComparator<T> implements Comparator<T> {
-
         private Comparator<T>[] comparators;
 
         public CustomizedComparator(Comparator... comparators) {

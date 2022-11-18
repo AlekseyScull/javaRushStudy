@@ -16,7 +16,7 @@ public class ConsoleHelper {
         try {
             st = reader.readLine();
         } catch (IOException ex) {
-            System.out.println("Произошла ошибка при попытке ввода текста. Попробуйте еще раз.");
+            System.out.println("Произошла ошибка при попытке ввода текста! Попробуйте еще раз.");
             st = readString();
         }
         return st;
@@ -27,7 +27,7 @@ public class ConsoleHelper {
         try {
             i = Integer.parseInt(readString());
         } catch (NumberFormatException ex) {
-            System.out.println("Произошла ошибка при попытке ввода числа. Попробуйте еще раз.");
+            System.out.println("Произошла ошибка при попытке ввода числа! Попробуйте еще раз.");
             i = readInt();
         }
         return i;

@@ -130,7 +130,7 @@ public class Client {
         if (clientConnected) {
             ConsoleHelper.writeMessage("Соединение установлено. Для выхода наберите команду 'exit'.");
         } else {
-            ConsoleHelper.writeMessage("Произошла ошибка во время работы клиента.");
+            ConsoleHelper.writeMessage("Произошла ошибка во время работы клиента!");
         }
         while (clientConnected) {
             String text = ConsoleHelper.readString();

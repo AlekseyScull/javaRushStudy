@@ -128,9 +128,9 @@ public class Client {
             notify();
         }
         if (clientConnected) {
-            ConsoleHelper.writeMessage("Соединение установлено. Для выхода наберите команду 'exit'.");
+            ConsoleHelper.writeMessage("РЎРѕРµРґРёРЅРµРЅРёРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅРѕ. Р”Р»СЏ РІС‹С…РѕРґР° РЅР°Р±РµСЂРёС‚Рµ РєРѕРјР°РЅРґСѓ 'exit'.");
         } else {
-            ConsoleHelper.writeMessage("Произошла ошибка во время работы клиента.");
+            ConsoleHelper.writeMessage("РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР° РІРѕ РІСЂРµРјСЏ СЂР°Р±РѕС‚С‹ РєР»РёРµРЅС‚Р°.");
         }
         while (clientConnected) {
             String text = ConsoleHelper.readString();

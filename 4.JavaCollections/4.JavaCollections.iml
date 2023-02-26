@@ -7,5 +7,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="fasterxml.jackson.core.annotations" level="application" />
+    <orderEntry type="library" exported="" name="fasterxml.jackson.core.databind" level="application" />
+    <orderEntry type="library" exported="" name="fasterxml.jackson.core" level="application" />
+    <orderEntry type="library" exported="" name="javax.activation" level="project" />
+    <orderEntry type="library" exported="" name="javax.xml.bind.jaxb.api" level="project" />
+    <orderEntry type="library" exported="" name="glassfish.jaxb.runtime" level="project" />
   </component>
 </module>

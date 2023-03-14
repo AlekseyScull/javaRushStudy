@@ -16,5 +16,9 @@
     <orderEntry type="library" exported="" name="log4j-1.2.17" level="project" />
     <orderEntry type="library" exported="" name="slf4j-api-2.0.6" level="project" />
     <orderEntry type="library" exported="" name="slf4j-jdk14-2.0.6" level="project" />
+    <orderEntry type="library" exported="" name="google.guava" level="project" />
+    <orderEntry type="library" exported="" name="apache.commons.collections4" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit.jupiter.api" level="project" />
+    <orderEntry type="library" exported="" name="junit" level="project" />
   </component>
 </module>
